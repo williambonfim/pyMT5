@@ -5,7 +5,7 @@ This program allows for integration between the MetaTrader 5 (MT5) terminal and 
 ## Installation
 
 1. Download and install the MetaTrader 5 terminal from the official website (https://www.metaquotes.net/en/metatrader5).
-2. Install the mt5 package using pip:
+2. Install the `mt5` package using pip:
 ```
 pip install mt5
 ```
