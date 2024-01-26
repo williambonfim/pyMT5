@@ -11,9 +11,9 @@ def save_all_symbols():
     for i in all_symbols_info:
         all_symbol.append(i.name)
     print(f'Total symbols available: {len(all_symbol)}')
-    #print(all_symbol)
+    print(all_symbol)
 
-    with open(f'Z:\MT5\Market\pyMT5\src\data\activtrades_symbols.csv', 'w') as f:
+    with open(f"Z:/MT5/Market/pyMT5/New folder/data/activtrades_symbols.csv", 'w') as f:
         writer = csv.writer(f)
         writer.writerow(all_symbol)
         f.close()

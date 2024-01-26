@@ -16,7 +16,7 @@ timeframes = [mt5.TIMEFRAME_M5]
 number_of_data = 150000 #1000000
 
 # Get list with all Symbols from MT5 - change file for less symbols or write symbols list below
-with open(f'pyMT5/New folder/data/{csv_file}.csv', newline='') as f:
+with open(f'pyMT5/New Folder/data/{csv_file}.csv', newline='') as f:
     reader = csv.reader(f)
     symbols = list(reader)[0]
 
@@ -37,7 +37,5 @@ for symbol in symbols:
         i += 1
     total = total-1
     print(f'{total} remaining symbols...')
-    
-
 
 MT5.shutdown()
